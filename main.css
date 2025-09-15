@@ -158,3 +158,27 @@ p {
     font-size: 4vw;
     
 }
+
+#text-container p {
+  display: block;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3vw;
+  line-height: 1.5;
+  color: #ff69b4;
+  text-align: center;
+  margin: 0.5em 0;
+  text-shadow: 
+    0 0 10px rgba(255, 182, 193, 0.9),
+    0 0 20px rgba(255, 105, 180, 0.7),
+    0 0 30px rgba(255, 20, 147, 0.5);
+  animation: fadeIn 3s ease forwards;
+}
+
+#love-text {
+  right:10%;
+  font-size: 2.5vw;
+  color: rgb(0, 195, 255);
+  animation: fadein ease 15s;
+  text-shadow: 0 0 10px #00f, 0 0 20px #0ff;
+}
+
